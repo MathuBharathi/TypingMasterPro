@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { saveUserData } from "../utils/sheetsAPI";
+import saveUserData from "../utils/sheetsAPI";
+
 
 export default function Dashboard({ user }) {
   const [perf, setPerf] = useState([]);
