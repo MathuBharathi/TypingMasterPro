@@ -9,6 +9,7 @@
     "start": "vite"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "googleapis": "^164.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
