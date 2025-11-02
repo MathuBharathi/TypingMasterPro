@@ -47,6 +47,5 @@ export const sendUserData = async (action, userData) => {
 // Optional alias for backward compatibility (if older code uses saveUserData)
 export const saveUserData = sendUserData;
 
-// Example usage:
-// await sendUserData("register", { name: "John", email: "john@mail.com", password: "1234" });
-// await sendUserData("login", { email: "john@mail.com", password: "1234" });
+// Optional default export if some components use default import
+export default saveUserData;

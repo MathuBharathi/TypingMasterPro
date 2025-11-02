@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import saveUserData from "../utils/sheetsAPI";
+import { saveUserData } from "../api/sheetApi";
+
 
 
 export default function Dashboard({ user }) {
